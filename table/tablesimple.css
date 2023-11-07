@@ -1,0 +1,15 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    /*căn lề*/
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+    /*Xác định màu nền của các dòng chẵn là #dddddd*/
+}
